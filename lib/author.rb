@@ -11,4 +11,8 @@ class Author
     "#{@first_name} #{@last_name}"
   end
 
+  def write(book)
+    @books << book
+  end
+
 end
